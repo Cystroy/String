@@ -1,0 +1,26 @@
+package strings;
+
+public class StringPractice {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	String sport = "Basketball";
+	String sport2 = "football";
+	System.out.println(sport2.compareTo(sport));
+	
+	
+	System.out.println(sport.contentEquals(sport2));
+	
+	System.out.println(sport.indexOf(sport2));
+	
+	System.out.println(sport.length());
+	
+	System.out.println(sport.substring(2));
+	
+	System.out.println(sport.substring(4,6));
+	
+
+	
+	}
+}
