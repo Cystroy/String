@@ -1,26 +1,37 @@
 package strings;
 
-public class StringPractice {
+public class Assignment1 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-	String sport = "Basketball";
-	String sport2 = "football";
-	System.out.println(sport2.compareTo(sport));
-	
-	
-	System.out.println(sport.contentEquals(sport2));
-	
-	System.out.println(sport.indexOf(sport2));
-	
-	System.out.println(sport.length());
-	
-	System.out.println(sport.substring(2));
-	
-	System.out.println(sport.substring(4,6));
-	
-
-	
+		
+		
+		String sentence = "This is a sentence.";
+		System.out.println(sentence.length());
+		int vowelCount = 0;
+		for( int i=0; i < sentence.length(); i++) {
+			if (sentence.substring(i,i+1).contains("a")) {
+				vowelCount++;
+			}
+			if (sentence.substring(i,i+1).contains("e")) {
+				vowelCount++;
+			}
+			if (sentence.substring(i,i+1).contains("i")) {
+				vowelCount++;
+			}
+			if (sentence.substring(i,i+1).contains("o")) {
+				vowelCount++;
+			}
+			if (sentence.substring(i,i+1).contains("u")) {
+				vowelCount++;
+			}
+			if (sentence.substring(i,i+1).contains("y")) {
+				vowelCount++;
+			}
+			
+		}
+		System.out.println(vowelCount);
 	}
+
 }
