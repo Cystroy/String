@@ -1,0 +1,18 @@
+package strings;
+
+public class Assignment2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String sentence = "This is also a sentence";
+		
+		
+		for (int i=sentence.length()-1; i>=0; i--) {
+			System.out.print(sentence.charAt(i));
+		}
+		
+		
+	}
+
+}
