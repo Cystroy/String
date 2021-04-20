@@ -3,15 +3,14 @@ package strings;
 public class Assignment3 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 		String sentence = "This isn't a very good sentence";
 	 countChar();	
 	}
 		
 		 public static void countChar() {
-		        String string = "This isn't a very good sentence";
-		        int counters[] = new int[256]; // assuming you would use only ASCII chars
+		        String string = "This sentence could be better, but it's good enough.";
+		        int counters[] = new int[256]; 
 		        for (final char c : string.toCharArray())
 		        {   if(c!=' ')
 		            counters[c]++;
